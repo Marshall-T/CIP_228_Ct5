@@ -24,15 +24,22 @@ body {
 
 article {
    background-color: #F5F5F5;
+   margin: 10% 10% 10% 30%;
+   padding: 2em;
 
 }
 
 
 
 figure {    
+   float: left;
+   margin: 1em 2em 1em 2em;
+   position: relative;
 
 }
 figcaption {
+   margin: -.2em 0em;
+   padding: 5px;
    width: 140px;
    background-color: black;
    color:white;
@@ -40,6 +47,9 @@ figcaption {
 
 }
 .overlayed {
+   position: absolute;
+   top: 0px;
+   left: 0px;
 
 }
 
@@ -49,23 +59,39 @@ figcaption {
 }
 
 .linkbutton {
+   display: block;
+   float: right;
+   margin: 1em .0em;
+   padding: .5em;
    background-color: #ff8800;
    color: white;
    text-decoration: none; 
    font-size: 0.75em;   
 }
 
-
 footer {
    background-color: #474747;
    color: #cacaca;
+   padding: 2em;
+   margin: .2em 0em;
 }
+
 footer h2 { color: #a4a1a1; }   
 .footer-related {
+   float: left;
+   margin: .2em;
+   position: relative;
    border-top: 1pt solid #ff8800;
 }
+
+footer p {
+      font-size: 0.6em;   
+}
+
 .footer-section{
+   margin: .2em .2em .2em 22em;
 
    border-top: 1pt solid #ff8800;
 }
+
 .footer-related img { margin: 3px; }
